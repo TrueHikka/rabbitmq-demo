@@ -37,7 +37,6 @@ public class RabbitConfiguration {
         return new Queue("myFirstQueue", false);
     }
 
-
 //    @Bean
 //    public SimpleMessageListenerContainer simpleMessageListenerContainer() {
 //        SimpleMessageListenerContainer simpleMessageListenerContainer = new SimpleMessageListenerContainer();
